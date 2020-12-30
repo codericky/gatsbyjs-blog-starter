@@ -1,0 +1,19 @@
+.posts{
+  list-style: none; 
+  margin :0px; 
+}
+
+.post {
+    margin:2rem 0px;
+    a{
+      padding: 1px;
+      background-color: #e0db92;
+      color:black;
+      display:block;
+      text-decoration: none;
+      text-align: center;
+    }
+    a:hover{
+      background: orangered;
+    }
+}

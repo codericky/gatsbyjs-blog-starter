@@ -1,0 +1,23 @@
+---
+title: sucsessfully fisrt post with mdx
+date: 2020-12-30
+---
+import TitleBar from "../../components/TitleBar.js";
+
+<TitleBar
+  size={"32px"}
+  bkgdColor={"#4aae9b"}
+  text={props.pageContext.frontmatter.title}
+/>
+
+
+This will be like turbo-charged Markdown!
+There are two things to note here:
+
+First, we just imported and used a React component directly inside Markdown! Let that sink in for a moment, because this is an incredibly powerful concept. (Imagine blog posts with animated charts and/or dynamically loaded data, complex interactivity, and more.)
+Second, you may have noticed that we are able to access the frontmatter values from props.pageContext.frontmatter. This can be quite useful, too!
+Important: If your MDX files contain frontmatter, always place any import statements after the frontmatter block!
+
+Go ahead and view the updated page in your browser, and try editing the size and bkgdColor props to watch it update. It’s a really simple example, but again: we are using a React component inside Markdown! Pretty sweet, right?!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W6PI_tlohrw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,0 +1,36 @@
+.header{
+    padding: 1 rem 0 3rem;
+}
+
+.title{
+    color:red;
+    font-size: 3 rem;
+    text-decoration: none;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type:none ;
+    margin:none;
+}
+
+.nav-item{
+    color:green;
+    font-size: 25px;
+    margin-right: 1.3rem;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    color:blue;
+    
+}
+
+.active-nav-item{
+    color:blueviolet;
+}
+.h1{
+    color:blue;
+}
+
+
